@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_base_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_base_colorPrimaryDark</item>
+        <item name="colorAccent">@color/app_base_colorAccent</item>
+        <!--是否有覆盖,目的是为了去掉activity起始的黑屏-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowAnimationStyle">@style/AnimationActivity</item>-->
+    </style>
+</resources>

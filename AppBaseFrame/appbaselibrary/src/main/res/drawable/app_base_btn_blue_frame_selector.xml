@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item>-->
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:state_pressed="true">-->
+        <!--<stroke android:color="@color/app_base_main_color_blue" android:width="2dp"/>-->
+        <!--<solid android:color="@color/app_base_line_dd" />-->
+        <!--<corners android:radius="20dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <!--<item>-->
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+            <!--<stroke android:color="@color/app_base_main_color_blue" android:width="2dp"/>-->
+            <!--<solid android:color="@color/app_base_bg_white" />-->
+            <!--<corners android:radius="20dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+<!--</selector>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <stroke  android:color="@color/app_base_main_color_blue" android:width="2dp"/>
+        <corners android:radius="30dp"/>
+        <solid android:color="@color/app_base_line_dd"/>
+
+    </shape>
+</item>
+<item>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners android:radius="30dp"/>
+        <solid android:color="@android:color/white"/>
+        <stroke  android:color="@color/app_base_main_color_blue" android:width="2dp"/>
+    </shape>
+</item>
+
+</selector>

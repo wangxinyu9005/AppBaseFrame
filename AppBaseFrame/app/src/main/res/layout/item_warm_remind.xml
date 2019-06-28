@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_warm_remind_ll"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_warm_remind_icon"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            tools:src="@mipmap/icon_warm_remind_chuanyi"
+            />
+
+        <com.xinbo.app.baseframe.widget.textview.MyRegularScriptTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_warm_remind_label"
+            android:textColor="@color/app_base_main_color_black"
+            android:layout_marginLeft="8dp"
+            android:textSize="@dimen/text_size12"
+            tools:text="穿衣指数"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/item_warm_remind_text"
+        android:textSize="@dimen/text_size11"
+        android:layout_marginLeft="28dp"
+        android:textColor="@color/app_base_black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content"
+        tools:text="寒冷"/>
+</LinearLayout>

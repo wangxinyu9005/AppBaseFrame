@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="app_base_AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_base_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_base_colorPrimaryDark</item>
+        <item name="colorAccent">@color/app_base_colorAccent</item>
+        <!--是否有覆盖,目的是为了去掉activity起始的黑屏-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowAnimationStyle">@style/AnimationActivity</item>-->
+    </style>
+
+    <style name="app_base_AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <!-- 一个activity创建进入的效果。-->
+        <item name="android:activityOpenEnterAnimation">@anim/app_base_activity_alpha_enter</item>
+        <!-- 一个activity还没有finish()下退出效果, 比如有俩个activity A与B 首先启动A 然后再启动B 那么A还没有finish()  这时A的退出效果。-->
+        <item name="android:activityOpenExitAnimation">@anim/app_base_activity_alpha_exit</item>
+        <!--表示上一个activity返回进入效果 比如有俩个activity A与B  B在最上面，B退出(finish)后 A重新进入的效果。-->
+        <item name="android:activityCloseEnterAnimation">@anim/app_base_activity_alpha_enter</item>
+        <!--表示的是activity finish()之后的效果 比如有俩个activity A与B B退出后会被finish() 那么B的退出效果在这定义。-->
+        <item name="android:activityCloseExitAnimation">@anim/app_base_activity_alpha_exit</item>
+    </style>
+
+    <!--App冷启动时添加过渡页面，防止白屏或者黑屏闪现-->
+    <style name="app_base_AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/app_base_main_color_blue</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--MyDialogBuilder样式-->
+    <style name="app_base_customDialog" parent="android:style/Theme.Dialog">
+        <!--你的layout背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--屏幕其他地方是否模糊变黑-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 自定义Dialog在初始化时的样式 -->
+    <style name="app_base_dialogui_datepick_dialog_untran" parent="app_base_dialogui_datepick_tran">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <!-- 中浅黑色字体 -->
+    <style name="app_base_dialogui_datepick_FontStyleNormalLightBlackMiddle" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <!-- 自定义Dialog在显示时的样式 -->
+    <style name="app_base_dialogui_datepick_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <!-- 黑色中字体 -->
+    <style name="app_base_dialogui_datepick_fontstyle_normal_blackmiddle" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 蓝色中等字体 -->
+    <style name="app_base_dialogui_datepick_fontstyle_normal_bluemiddle" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/app_base_datepick_surance_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="app_base_alertDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/app_base_colorAccent</item>
+        <!-- 竖屏模式下dialog的宽度 -->
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+</resources>

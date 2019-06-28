@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_base_error">出错啦!出问题啦!</string>
+    <string name="app_base_time_out">网络开小差了!</string>
+    <string name="app_base_fine_no_data">没有获取到数据!</string>
+    <string name="app_base_click_me_to_retry">点击重试!</string>
+    <string name="app_base_home_title">app应用框架</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--快速问医-->
+    <dimen name="app_base_text_title1">12sp</dimen>
+    <dimen name="app_base_text_title2">11sp</dimen>
+    <dimen name="app_base_text_content1">10sp</dimen>
+    <dimen name="app_base_text_content2">9sp</dimen>
+
+    <dimen name="text_size4">4sp</dimen>
+    <dimen name="text_size5">5sp</dimen>
+    <dimen name="text_size6">6sp</dimen>
+    <dimen name="text_size7">7sp</dimen>
+    <dimen name="text_size8">8sp</dimen>
+    <dimen name="text_size9">9sp</dimen>
+    <dimen name="text_size10">10sp</dimen>
+    <dimen name="text_size11">11sp</dimen>
+    <dimen name="text_size12">12sp</dimen>
+    <dimen name="text_size13">13sp</dimen>
+    <dimen name="text_size14">14sp</dimen>
+    <dimen name="text_size15">15sp</dimen>
+    <dimen name="text_size16">16sp</dimen>
+    <dimen name="text_size17">17sp</dimen>
+    <dimen name="text_size18">18sp</dimen>
+    <dimen name="text_size19">19sp</dimen>
+    <dimen name="text_size20">20sp</dimen>
+    <dimen name="text_size21">21sp</dimen>
+    <dimen name="text_size22">22sp</dimen>
+    <dimen name="text_size23">23sp</dimen>
+    <dimen name="text_size24">24sp</dimen>
+    <dimen name="text_size25">25sp</dimen>
+    <dimen name="text_size26">26sp</dimen>
+    <dimen name="text_size27">27sp</dimen>
+    <dimen name="text_size28">28sp</dimen>
+    <dimen name="text_size29">29sp</dimen>
+    <dimen name="text_size30">30sp</dimen>
+
+    <!--分割线 start-->
+    <dimen name="app_base_divider">0.5dp</dimen>
+    <dimen name="app_base_bubble_right_margin">144dp</dimen>
+    <dimen name="app_base_bubble_width">400dp</dimen>
+    <dimen name="app_base_line_spacing_extra">6dp</dimen>
+
+    <!-- 主题相关-->
+    <dimen name="app_base_home_title_size">10sp</dimen>
+    <!-- 带弧度的按钮的弧度值-->
+    <dimen name="app_base_common_button_radius">2dp</dimen>
+
+    <!--spinner-->
+    <dimen name="app_base_three_grid_unit">5dp</dimen>
+    <dimen name="app_base_one_and_a_half_grid_unit">3dp</dimen>
+
+    <dimen name="app_base_kswy_item_bottom_margin">6dp</dimen>
+    <dimen name="app_base_kswy_item_left_width">460dp</dimen>
+    <dimen name="app_base_kswy_item_left_content_width">444dp</dimen>
+
+    <dimen name="app_base_dialogui_round_corner_radius">5dp</dimen>
+    <dimen name="app_base_dialogui_l_round_corner_radius">10dp</dimen>
+    <dimen name="app_base_dialogui_line_with">1dp</dimen>
+    <dimen name="app_base_dialogui_margin_small">8dp</dimen>
+    <dimen name="app_base_dialogui_margin_smid">14dp</dimen>
+    <dimen name="app_base_dialogui_margin_mid">16dp</dimen>
+    <dimen name="app_base_dialogui_height_mid">48dp</dimen>
+    <dimen name="app_base_dialogui_toast_margin">64dp</dimen>
+    <dimen name="app_base_dialogui_max_with">360dp</dimen>
+
+    <dimen name="app_base_dialogui_title_txt_size">17sp</dimen>
+    <dimen name="app_base_dialogui_btn_txt_size">14sp</dimen>
+    <dimen name="app_base_dialogui_msg_txt_size">14sp</dimen>
+    <dimen name="app_base_dialogui_item_txt_size">14sp</dimen>
+    <dimen name="app_base_dialogui_input_txt_size">14sp</dimen>
+    <dimen name="app_base_activity_horizontal_margin">16dp</dimen>
+    <dimen name="app_base_activity_vertical_margin">16dp</dimen>
+</resources>

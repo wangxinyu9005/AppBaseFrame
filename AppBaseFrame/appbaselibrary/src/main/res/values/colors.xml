@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_base_colorPrimary">#008577</color>
+    <color name="app_base_colorPrimaryDark">#00574B</color>
+    <color name="app_base_colorAccent">#D81B60</color>
+
+    <!-- 主色调蓝-->
+    <color name="app_base_main_color_blue">#4870e2</color>
+    <color name="app_base_main_color_black">#333333</color>
+    <!-- 副色调-->
+    <color name="app_base_secondary_color">#53b3fa</color>
+    <color name="app_base_white">#ffffff</color>
+    <color name="app_base_black">#000000</color>
+
+    <color name="app_base_color_0066cc">#0066cc</color>
+    <color name="app_base_color_cccccc">#cccccc</color>
+    <color name="color_456de5">#456de5</color>
+
+
+    <!--dialog-ui-->
+    <color name="app_base_ios_btntext_blue">#007aff</color>
+    <color name="app_base_text_title_11">#111111</color>
+    <color name="app_base_text_msg_33">#333333</color>
+    <color name="app_base_text_input_44">#444444</color>
+    <color name="app_base_text_item_33">#333333</color>
+    <color name="app_base_btn_alert">#222222</color>
+    <color name="app_base_line_dd">#dddddd</color>
+    <color name="app_base_bg_white">#ffffff</color>
+    <color name="app_base_text_gray">#999999</color>
+    <color name="app_base_text_gray_light">#B3B3B3</color>
+    <color name="app_base_text_black">#333333</color><!--正式发布时改成666666-->
+    <color name="app_base_text_black_light" >#666666</color><!--正式发布时改成666666-->
+    <color name="app_base_color_text_black">#4c4c4c</color>
+    <color name="app_base_color_tie_bg">#efeff4</color>
+    <color name="app_base_color_tie_normal">#ffffff</color>
+    <color name="app_base_color_tie_select">#efeff4</color>
+    <color name="app_base_dialogui_btn_normal">#ffffff</color>
+    <color name="app_base_dialogui_btn_pressed">#eeeeee</color>
+    <color name="app_base_datepick_surance_blue">#3598da</color>
+    <!--dialog-ui-->
+</resources>

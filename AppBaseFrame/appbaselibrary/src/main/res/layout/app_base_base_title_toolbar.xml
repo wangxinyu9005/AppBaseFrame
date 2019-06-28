@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/app_base_white"
+    app:contentInsetStart="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/base_title_back_img"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/app_base_ic_icon_base_title_back"
+            android:tint="@color/app_base_main_color_black" />
+
+        <TextView
+            android:id="@+id/base_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:maxLength="12"
+            android:layout_centerInParent="true"
+            android:textColor="@color/app_base_main_color_black"
+            android:textSize="@dimen/text_size16"
+            tools:text="标题标题标题标题标题标题标题标题标题" />
+
+        <TextView
+            android:id="@+id/base_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/app_base_main_color_black"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible"
+            android:textSize="@dimen/text_size16"
+            tools:text="添加添加" />
+
+        <ImageView
+            android:id="@+id/base_title_right_image"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/app_base_main_color_black"
+            android:gravity="center"
+            android:textSize="@dimen/text_size16"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="11dp"
+            android:visibility="gone"
+            android:paddingRight="11dp"
+            tools:src="@drawable/app_base_ic_laba"
+            tools:text="添加" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
